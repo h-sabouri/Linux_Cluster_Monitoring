@@ -3,6 +3,8 @@
 The purpose of this project is to collect hardware specification and also monitor the cluster nodes resource usage in real time. The collected data will be stored in an RDBMS database for this we use posgres sql database. These data can help to manage reports for future resource planning purposes.
 
 ## Architecture
+### Cluster Diagram
+![lmt_Architecture.drawio.png](assets/lmt_Architecture.drawio.png)
 Three nodes/servers to demonstrate, they are connected through switch. On each server, there are two bash scripts, host_info.sh and host_usage.sh
 host_info to collect host hardware information
 hoset_info.sh collect current host usage information
